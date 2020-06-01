@@ -13,6 +13,9 @@ The automated tests are:
   
   -Header navigation to Insights-Maritime: The test consists in navigating using the header menu to other page space (Insights/Maritime), waiting the driver loads, then asserting that URL is the one expected and an element of the page ("Maritime" header title) is being displayed
   
+  -Veracity login tests: These 3 tests checks the propper behavior of Veracity login, asserting the error messages returned in the several casuistry.
+  
+ The tests are explained also in tests code comments
   
   --------------------------------------------------------------------------------------------------------
   
