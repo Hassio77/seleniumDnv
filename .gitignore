@@ -1,0 +1,13 @@
+*.iml
+target/*
+.idea/*
+/.idea/
+/test-output/
+/target/
+/.settings/
+/.classpath
+/.project
+.DS_Store
+.factorypath 
+167BE337.tmp
+/bin
