@@ -3,6 +3,10 @@ DNV technical test
 
 In this repository you will find a Maven project in which I will use TestNG framework with Selenium to make a couple of automated tests.
 
+For this automated tests I will be using Chrome browser, whose driver is located in src/main/resources path. I will use this browser because it is the most popular nowadays. If you want to use a different browser:
+  -You have to download the browser driver and add it to src/main/resources
+  -Change BaseTest.java -> setup method, you have to change the driver path to use and the driver initiation to the driver you want to      use
+
 The automated tests are:
 
   -Header menu navigation: The test consists in moving the mouse over the header menu and cheking that the elements of each item are being shown
