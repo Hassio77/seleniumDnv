@@ -1,7 +1,19 @@
 # seleniumDnv
 DNV technical test
 
-I will use this readme to list other tests that I would do to the website in a bullet list:
+In this repository you will find a Maven project in which I will use TestNG framework with Selenium to make a couple of automated tests.
+
+The automated tests are:
+
+  -Header menu navigation: The test consists in moving the mouse over the header menu and cheking that the elements of each item are being shown
+  
+  -Header navigation to Insights-Maritime: The test consists in navigating using the header menu to other page space (Insights/Maritime), waiting the driver loads, then asserting that URL is the one expected and an element of the page ("Maritime" header title) is being displayed
+  
+  
+  --------------------------------------------------------------------------------------------------------
+  
+
+I will also use this readme to list other tests that I would do to the website in a bullet list:
 
 -Sign in to Veracity starting from home page (with language check in Veracity login page)
 
