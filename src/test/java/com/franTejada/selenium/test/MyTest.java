@@ -1,10 +1,7 @@
 package com.franTejada.selenium.test;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.FindBy;
+import static org.testng.Assert.assertTrue;
+
 import org.testng.annotations.*;
 
 import com.franTejada.selenium.page.*;
@@ -12,9 +9,16 @@ import com.franTejada.selenium.page.*;
 public class MyTest extends BaseTest{
 
 	@Test
-	public void test() {		
-		DnvHomePage ob = new DnvHomePage(driver);
-		ob.clickButton();
-		
+	public void bannerBehaviorTest() {		
+		HomePage homePage = new HomePage(driver);
+		assertTrue(homePage.bannerBehavior());
+	}
+	
+	@Test
+	public void bannerNavigateInsightsMaritime() {
+		HomePage homePage = new HomePage(driver);
+		InsightsMaritimePage insightsMaritimePage = new InsightsMaritimePage(driver);
+		homePage.bannerNavigateToInsightsMaritimes();
+		assertTrue(insightsMaritimePage.checkCurrentlyOnMaritime());
 	}
 }

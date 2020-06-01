@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9307" started-at="2020-05-31T17:12:25 CEST" finished-at="2020-05-31T17:12:35 CEST">
+  <suite name="Default suite" duration-ms="21446" started-at="2020-05-31T23:56:24 CEST" finished-at="2020-05-31T23:56:46 CEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9307" started-at="2020-05-31T17:12:25 CEST" finished-at="2020-05-31T17:12:35 CEST">
+    <test name="Default test" duration-ms="21446" started-at="2020-05-31T23:56:24 CEST" finished-at="2020-05-31T23:56:46 CEST">
       <class name="com.franTejada.selenium.test.MyTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.franTejada.selenium.test.MyTest@27fe3806]" name="setup" is-config="true" duration-ms="4555" started-at="2020-05-31T17:12:25 CEST" finished-at="2020-05-31T17:12:30 CEST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.franTejada.selenium.test.MyTest@27fe3806]" name="setup" is-config="true" duration-ms="6671" started-at="2020-05-31T23:56:24 CEST" finished-at="2020-05-31T23:56:31 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.franTejada.selenium.test.MyTest@27fe3806]" name="test" duration-ms="407" started-at="2020-05-31T17:12:30 CEST" finished-at="2020-05-31T17:12:30 CEST">
+        <test-method status="PASS" signature="bannerBehaviorTest()[pri:0, instance:com.franTejada.selenium.test.MyTest@27fe3806]" name="bannerBehaviorTest" duration-ms="2922" started-at="2020-05-31T23:56:31 CEST" finished-at="2020-05-31T23:56:34 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.franTejada.selenium.test.MyTest@27fe3806]" name="endTest" is-config="true" duration-ms="4320" started-at="2020-05-31T17:12:30 CEST" finished-at="2020-05-31T17:12:35 CEST">
+        </test-method> <!-- bannerBehaviorTest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.franTejada.selenium.test.MyTest@27fe3806]" name="endTest" is-config="true" duration-ms="4085" started-at="2020-05-31T23:56:34 CEST" finished-at="2020-05-31T23:56:38 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.franTejada.selenium.test.MyTest@27fe3806]" name="setup" is-config="true" duration-ms="4896" started-at="2020-05-31T23:56:38 CEST" finished-at="2020-05-31T23:56:43 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bannerNavigateInsightsMaritime()[pri:0, instance:com.franTejada.selenium.test.MyTest@27fe3806]" name="bannerNavigateInsightsMaritime" duration-ms="2482" started-at="2020-05-31T23:56:43 CEST" finished-at="2020-05-31T23:56:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bannerNavigateInsightsMaritime -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.franTejada.selenium.test.MyTest@27fe3806]" name="endTest" is-config="true" duration-ms="364" started-at="2020-05-31T23:56:45 CEST" finished-at="2020-05-31T23:56:46 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
