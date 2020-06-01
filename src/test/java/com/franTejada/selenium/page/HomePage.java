@@ -8,6 +8,9 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePageObject {
 
+	/*
+	 * Class to define the DNVGL Home Page and all its methods
+	 */
 
 	
 	public HomePage(WebDriver driver) {
@@ -51,7 +54,14 @@ public class HomePage extends BasePageObject {
 	WebElement aboutUsOurHistoryLink;
 	
 	
-
+	//OTHER ELEMENTS
+	
+	@FindBy(xpath = "//a[contains(@class,'the-header__login')]")
+	WebElement goToVeracityLoginButton;
+	
+	
+	//Public methods that will be used in tests
+	
 	public void bannerNavigateToInsightsMaritimes() {
 		actions.moveToElement(headerInsights).perform();
 		waitElementIsVisible(insightsMaritimeLink);
@@ -65,6 +75,12 @@ public class HomePage extends BasePageObject {
 				bannerServicesCheck()
 				? true : false;
 	}
+	
+	public void goToVeracityLogin() {
+		goToVeracityLoginButton.click();
+	}
+	
+	//Private methods that will define complexes actions in public methods used in tests
 	
 	private boolean bannerInsightsCheck() {
 		actions.moveToElement(headerInsights).perform();
